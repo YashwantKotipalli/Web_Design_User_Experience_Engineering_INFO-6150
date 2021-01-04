@@ -1,0 +1,34 @@
+.container{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+/* li means only descendants of the container */
+/* li means all lists under the container class*/ 
+.container li{
+
+    color: rebeccapurple;
+    
+}
+
+
+/* immediate child*/
+.container > ol {
+
+    color: navy;
+    border: 1px solid #00ff00;
+
+}
+
+/* selects the next immediate sibling*/ 
+/* immediate sibling selector*/
+.Orange + li {
+    color: orange;
+}
+
+/* general sibling selector*/
+/*applies to all the following siblings*/
+.Orange ~ li{
+    font-size: x-large;
+}

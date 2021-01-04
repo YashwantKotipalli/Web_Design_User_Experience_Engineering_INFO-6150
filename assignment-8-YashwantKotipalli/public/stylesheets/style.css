@@ -1,0 +1,12 @@
+
+/* Styling the Body for the HTML implementation*/
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+/* Styling the anchor tag if any*/
+a {
+  color: #00B7FF;
+}

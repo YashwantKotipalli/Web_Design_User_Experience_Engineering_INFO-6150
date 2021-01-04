@@ -1,0 +1,14 @@
+.container{
+    width: 800px;
+    min-height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 25px;
+
+}
+
+th,td{
+    min-width: 100px;
+    min-height: 100px;
+    cursor: pointer;
+}

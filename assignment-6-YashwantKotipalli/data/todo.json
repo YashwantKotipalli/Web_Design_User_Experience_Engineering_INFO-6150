@@ -1,0 +1,36 @@
+[
+
+    {  
+       "Title": "Groceries",
+        "Description": "Patel Brothers",
+        "Due": "28-10-2020",
+        "Time": "10:30pm"
+
+    },
+
+    {
+        "Title": "Assignment",
+        "Description": "Web Design",
+        "Due": "28-10-2020",
+        "Time": "12:30pm"
+        
+
+    },
+
+    {
+        "Title": "EXAM",
+        "Description": "Web Design",
+        "Due": "28-10-2020",
+        "Time": "12:30pm"
+        
+
+    },
+
+    {
+        "Title": "TODO",
+        "Description": "AED",
+        "Due": "22-10-2020",
+        "Time": "6:30pm"
+    }
+    
+]

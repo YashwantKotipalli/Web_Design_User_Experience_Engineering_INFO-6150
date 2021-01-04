@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+    min-width: 100%;
+    background-image: linear-gradient(130deg, #FFFFFF, #428bdf);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container{
+
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.main{
+    padding: 20px;
+    
+}
+
+.todo-container{
+    width: 1200px;
+}
+
+form{
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: auto;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    flex-grow: 1;
+
+}
+
+button{
+    font-size: 1.5rem;
+    background-color: white;
+    outline: 0;
+    border: none;
+    color: black;
+
+}
+
+
+button:hover{
+    color: rgb(77, 184, 226);
+
+}
+
+.todoList{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    height: 100%;
+
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 50px;
+    font-size: 1rem;
+    color: gray;
+}
+
+i{
+    pointer-events: none;
+}
+
+.clearAll{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: pointer;
+
+}
+
+.clearAll:hover{
+
+    color: lightcoral;
+}
+
+.todo-item{
+
+    flex-grow: 1;
+
+}
+
+.todo-item-list{
+    transition: all 0.3s ease-out;
+
+}
+
+.todo-list-item-fall{
+
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
+
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!--Header Section of the Connect with me Page giving the displaying the title of my website and the logo along with it in the title bar-->
+        <link rel="shortcut icon" href="title-icon.png" type="image/x-icon">
+        <title>Yashwant Kotipalli</title>
+
+        <!--The Meta information to declare the content of the website while developers web scrape it, as it is a a rule of the federal government of the USA-->
+        <meta name="Description" content="Yashwant Kotipalli's Portfolio account.">
+
+ 
+    </head>
+
+    <!--Style section of the page-->
+    <!--Deciding on the background color for the html page-->
+    <style>
+
+        
+
+        html{
+            background-color: rgb(255, 255, 255);
+            
+        }
+
+    </style>
+
+
+
+
+
+    <body>
+
+        <header><strong>Connect With ME!</strong></header>
+        
+
+        <!--Links to other content on the website, hence making it easy for navigation from one page to the other.-->
+        <!--using an unordered list for the required purpose-->
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">About Me</a></li>
+            <li><a href="social.html">Social Media</a></li>
+            <li><a href="works.html">My work</a></li>
+            <li><a href="Connect.html">Connect</a></li>
+            
+        </ul>
+
+        <!-- Defining a new section for the 2 images along with a header1 style text-->
+        <section>
+            <h1>Let's Connect !</h1>
+            <img src="logoYK.png"  width="300"
+         height="150">
+         <img src="me.jpeg"  width="200"
+         height="150">
+         
+
+
+            <!--paragraph tag giving some description-->
+            <p> If you like my profile and want to connect with me for a project, job or just regular networking, kindly drop in your name, designation, phone, email and the purpose with a brief introduction !</p>
+        </section>
+
+       
+
+        <!--GET is an HTTP protocol to get the information-->
+        <form method="GET" action="response.html">
+
+            <!--defining a fieldset section to take input about the users who are interested to contact the owner.-->
+            <fieldset>
+                <label>Full Name: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <input type="text" name="Fullname" minlength="8" maxlength="46">
+                <label> Phone Number(include extension): <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <input type="tel" name="Enter Date Phone Number" minlength="12" maxlength="12">
+                <label> Email: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <input type="email" name="email" minlength="8" maxlength="40">
+
+                <label>Link to your linkedin profile: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <input type="url" name="url" minlength="8" maxlength="100">
+                
+                
+                <!--This is a dropdown menu for the designation-->
+                <label>DESIGNATION: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <select name="type">
+                    <option> Recruiter</option>
+                    <option> Student</option>
+                    <option>University</option>
+                    <option>Business</option>
+                
+                
+
+                </select>
+                
+                
+                
+                
+            </fieldset>
+
+            <!--Defining a seperate fieldset section for a brief introduction input.-->
+            <fieldset>
+
+                <label>BRIEF INTRODUCTION OF YOU: <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                <input type="text" name="introduction" minlength="10" maxlength="10000">
+
+                
+
+                
+                
+            </fieldset>
+
+                    <!--Button to submit the information and redirect the page to a sucessfull response page and message-->
+                    <button href = "response.html"id="Submit">Submit</button>
+            
+            
+
+            
+
+        </form>
+        
+
+        <footer>
+
+
+        </footer>
+        
+
+
+
+
+    </body>
+
+
+</html>

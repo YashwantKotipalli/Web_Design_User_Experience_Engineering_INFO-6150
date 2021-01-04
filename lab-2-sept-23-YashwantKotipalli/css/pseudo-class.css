@@ -1,0 +1,17 @@
+li{
+    padding: 5px;
+
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: paleturquoise;
+}
+
+li::first-letter{
+    font-size: 1.5em;
+}
+
+li::selection{
+    background-color: plum;
+}

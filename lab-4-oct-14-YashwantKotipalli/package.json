@@ -1,0 +1,22 @@
+{
+  "name": "lab-4-oct-14-yashwantkotipalli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/lab-4-oct-14-YashwantKotipalli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/lab-4-oct-14-YashwantKotipalli/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/lab-4-oct-14-YashwantKotipalli#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

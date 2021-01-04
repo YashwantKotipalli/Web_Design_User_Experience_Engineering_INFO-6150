@@ -1,0 +1,20 @@
+li[data-value]{
+
+    font-size: 1.2em;
+}
+
+li[data-value="lorem"]{
+    color: palegoldenrod;
+}
+
+li[data-value="ipsum"]{
+    color: rgb(245, 92, 31);
+}
+
+li[data-value="dotor"]{
+    color: rgb(2, 28, 172);
+}
+
+li[data-value="amet"]{
+    color: rgb(2, 28, 172);
+}

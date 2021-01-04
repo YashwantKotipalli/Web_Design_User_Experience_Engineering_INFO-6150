@@ -1,0 +1,30 @@
+{
+  "name": "assignment-7-yashwantkotipalli",
+  "version": "1.0.0",
+  "description": "**Problem Statement**",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "node-sass": "5.0.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-YashwantKotipalli.git"
+  },
+  "keywords": [],
+  "author": "Yashwant Kotipalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-YashwantKotipalli/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-YashwantKotipalli.git#readme"
+}

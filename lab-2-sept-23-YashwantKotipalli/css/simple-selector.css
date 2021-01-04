@@ -1,0 +1,36 @@
+body{
+    padding: 20px;
+}
+
+#p-1{
+    color: #000000;
+}
+
+
+.article{
+    background-color: darkgreen;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h1{
+    text-align: center;
+
+}
+
+*{
+    margin: 5px;
+}
+
+.overflow{
+
+    width: 1000px;
+    height: 1000px;
+}

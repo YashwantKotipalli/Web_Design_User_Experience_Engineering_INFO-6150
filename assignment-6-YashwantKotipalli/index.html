@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> JAVASCRIPT TO-DO APP </title>
+        <!--importing the icon package using link-->
+        <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <!--importing the CSS stylesheets from the dist folder-->
+        <link href="dist/main.css" rel="stylesheet">
+        <!--importing the font for the html page-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body class="container">
+        <header class="logo">
+            <!--using the h tag for the header section of the page-->
+            <h2 class="headline" >Javascript To-do App</h2>
+        </header>
+
+        <!--The main div section containing the flexbox styled input section and an aditional section for the display the created to-do items-->
+        <div class= "main" id="todo-container">
+            <form>
+
+                <!--Taking the input with specified placeholders-->
+                <input type="text" placeholder="New Task Title....">
+                <input type="text" placeholder="Add Description....">
+                <input type="text" placeholder="Add Due-Date....">
+                <input type="text" placeholder="Add Time....">
+                
+                <!--The submit button taking in the parameter class from external icon source-->
+                <button type="submit" id="todo-load"><i class="fas fa-plus-square"></i></button>
+            </form>
+
+            <!--Div class containing the display section of the to-do list along with the clear all button-->
+            <div class="todoList">
+                
+                <ul id="todo-content"></ul>
+                <a class="clearAll" id="clearAll"> Clear All</a>
+            </div>
+        </div>
+        <!--Taking the inputs from both the javascript files, one being the main app file and the other file used for the XHR and Json field filling process-->
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/async-table.js"></script>
+    </body>
+</html>
